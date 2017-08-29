@@ -1,0 +1,5 @@
+.is-desktop-hidden {
+  @media(min-width: $breakpoint-m - 1) {
+    display: none !important;
+  }
+}

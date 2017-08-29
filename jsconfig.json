@@ -1,0 +1,6 @@
+{
+  "setupFiles": ["./jestsetup.js"],
+  "compilerOptions": {
+    "experimentalDecorators" : true
+  }
+}

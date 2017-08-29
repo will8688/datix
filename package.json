@@ -1,0 +1,15 @@
+{
+  "name": "programming-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server",
+    "test": "jest"
+  },
+  "author": "Will Morrison",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}

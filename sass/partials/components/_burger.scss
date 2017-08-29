@@ -1,0 +1,44 @@
+$burger-size                              : 44px;
+$burger-line-width                        : 20px;
+$burger-line-height                       : 2px;
+$burger-line-spacing                      : 6px;
+
+$burger-line-bg                           : #595C5C;
+
+.burger {
+	width: $burger-size;
+	height: $burger-size;
+	position: absolute;
+  left: 18px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+  .burger__line {
+  	width: $burger-line-width;
+  	height: $burger-line-height;
+    position: relative;
+  	background-color: $burger-line-bg;
+	  
+  	&:after,
+  	&:before {
+  		content: '';
+  		width: $burger-line-width;
+  		height: $burger-line-height;
+  		position: absolute;
+  		left: 0;
+  		background-color: $burger-line-bg;
+      transition: transform 0.15s $ease-out-quad;
+  	}
+	
+  	&:before {
+  		top: -$burger-line-spacing;
+  	}
+	
+  	&:after {
+  		top: $burger-line-spacing;
+  	}
+  }

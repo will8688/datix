@@ -1,0 +1,26 @@
+$main-content-max-width                             : 1170px;
+
+.main {
+  width: 100%;
+  margin-top: $header-height;
+}
+  
+  .main__content {
+    padding: 0 (1.5 * $gutter) $gutter;
+    margin-left: $navigation-width;
+  }
+  .row {
+    padding: 0 (1.5 * $gutter) $gutter;
+    width: 100%;
+  }
+  .col {
+    padding: 0 (1.5 * $gutter) $gutter;
+    margin: 0 auto;
+    width: 50%;
+  }
+    
+@media(max-width: $breakpoint-m) {
+  .main__content {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,22 @@
+$header-thumbnail-width             : 90px;
+$header-thumbnail-size              : 40px;
+$header-status-width                : 145px;
+
+$header-bg                          : #F4F5F3;
+$header-border-bottom               : 1px solid #DBDAD5;
+$header-status-bg                   : #D5ECFF;
+$header-status-txt                  : #333b40;
+
+.header {
+  height: $header-height;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $header-bg;
+  border-bottom: $header-border-bottom;
+  z-index: 101;
+}
